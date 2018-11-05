@@ -1939,11 +1939,13 @@
 						ProvisioningStyle = Automatic;
 					};
 					5D659E7D1BE04556006515A0 = {
+						DevelopmentTeam = B6ZDV9VE3Y;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					5D660FCB1BE98C560021E04F = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = B6ZDV9VE3Y;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
@@ -2682,7 +2684,9 @@
 			baseConfigurationReference = 5D659E761BE03E0D006515A0 /* Realm.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B6ZDV9VE3Y;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -2694,7 +2698,9 @@
 			baseConfigurationReference = 5D659E761BE03E0D006515A0 /* Realm.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B6ZDV9VE3Y;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2704,6 +2710,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D660FBD1BE98BEF0021E04F /* RealmSwift.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6ZDV9VE3Y;
 			};
 			name = Debug;
 		};
@@ -2711,6 +2719,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D660FBD1BE98BEF0021E04F /* RealmSwift.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6ZDV9VE3Y;
 			};
 			name = Release;
 		};
